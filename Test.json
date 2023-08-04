@@ -1,0 +1,25 @@
+{
+    "name": "The Test Level",
+
+    "objects": [
+        {
+            "object_name": "object1",
+            "object_width": 25,
+            "object_height": 25,
+            "object_x": 150,
+            "object_y": 200,
+            "image_path": "blue_square.png" 
+        },
+        
+        {
+            "object_name": "object2",
+            "object_width": 50,
+            "object_height": 50,
+            "object_x": 340,
+            "object_y": 240,
+            "image_path": "red_square.png" 
+        }
+        
+    ]
+
+}
