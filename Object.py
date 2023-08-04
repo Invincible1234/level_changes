@@ -3,8 +3,9 @@ import os
 
 class Object(pygame.sprite.Sprite):
     
-    def __init__(self, width, height, x, y, image_path):
+    def __init__(self, name , width, height, x, y, image_path):
         super().__init__()
+        self.name = name
         self.image = pygame.image.load(os.path.join(image_path)).convert()
         self.image = pygame.transform.scale(self.image, (width, height))
         self.rect = self.image.get_rect()
@@ -24,4 +25,4 @@ class Object(pygame.sprite.Sprite):
 
     def update(self):
         self.rect.centerx = self.x
-        self.rect.centery = self.x
+        self.rect.centery = self.y
