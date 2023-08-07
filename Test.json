@@ -18,6 +18,24 @@
             "object_x": 340,
             "object_y": 240,
             "image_path": "red_square.png" 
+        },
+
+        {
+            "object_name": "object3",
+            "object_width": 25,
+            "object_height": 25,
+            "object_x": 100,
+            "object_y": 100,
+            "image_path": "blue_square.png" 
+        },
+
+        {
+            "object_name": "ground",
+            "object_width": 5000,
+            "object_height": 2,
+            "object_x": 270,
+            "object_y": 270,
+            "image_path": "red_square.png"
         }
         
     ]
